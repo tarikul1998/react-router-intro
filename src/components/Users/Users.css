@@ -3,3 +3,13 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
+
+nav a {
+    text-decoration: none;
+}
+
+nav a.active {
+    text-decoration: underline;
+    color: peru;
+    /* background-color: aquamarine; */
+}
